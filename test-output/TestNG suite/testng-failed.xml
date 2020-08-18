@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG suite]">
+  <parameter name="environment" value="https://www.google.com/intl/en-GB/gmail/about/#"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="emailID" value="gsairam555"/>
+  <test thread-count="5" name="Testng test(failed)">
+    <classes>
+      <class name="TestNGDemo.ParameterDemo">
+        <methods>
+          <include name="gmailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNGDemo.ParameterDemo -->
+    </classes>
+  </test> <!-- Testng test(failed) -->
+</suite> <!-- Failed suite [TestNG suite] -->
